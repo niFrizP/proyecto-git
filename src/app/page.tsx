@@ -13,7 +13,7 @@ export default function Home() {
               <li>
                 <a
                   id="radix-:r2:-trigger-radix-:r3:"
-                  href="#" // Reemplaza con la URL de la página de proyectos
+                  href="/proyectos" // Reemplaza con la URL de la página de proyectos
                   data-state="closed"
                   className="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors hover:bg-[#383434] disabled:opacity-50 outline-0 disabled:pointer-events-none bg-transparent data-[state=open]:bg-transparent h-10 py-2 px-4 group w-max focus:ring-0 focus:ring-[#DCE1EA] focus:outline-0 group"
                   data-radix-collection-item=""
@@ -29,7 +29,7 @@ export default function Home() {
               <li>
               <a
                   id="radix-:r2:-trigger-radix-:r3:"
-                  href="#" // Reemplaza con la URL de la página de proyectos
+                  href="/contacto" // Reemplaza con la URL de la página de proyectos
                   data-state="closed"
                   className="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors hover:bg-[#383434] disabled:opacity-50 outline-0 disabled:pointer-events-none bg-transparent data-[state=open]:bg-transparent h-10 py-2 px-4 group w-max focus:ring-0 focus:ring-[#DCE1EA] focus:outline-0 group"
                   data-radix-collection-item=""
