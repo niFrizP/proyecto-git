@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Link from "next/link";
 import React from 'react'
 import Particles from './components/particles'
 
@@ -62,7 +61,7 @@ export default function Home() {
       
         <div className="my-16 text-center animate-fade-in">
           <h2 className="text-sm text-zinc-500 ">
-            Hola!, Bienvenid@ a nuestro portafolio
+            Hola!, Bienvenid@ a nuestro <a className='text-sm font-medium' href="https://github.com/niFrizP/proyecto-git"> repositorio</a>
           </h2>
         </div>
 
