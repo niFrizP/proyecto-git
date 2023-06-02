@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from "next/link";
 import React from 'react'
-import Particles from './components/particles'
+import Particles from '../components/particles'
 
 export default function Home() {
   return (
