@@ -12,9 +12,9 @@ export default function Home() {
               <li>
                 <a
                   id="radix-:r2:-trigger-radix-:r3:"
-                  href="/proyectos" // Reemplaza con la URL de la página de proyectos
+                  href="/pages/proyectos" // Reemplaza con la URL de la página de proyectos
                   data-state="closed"
-                  className="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors hover:bg-[#383434] disabled:opacity-50 outline-0 disabled:pointer-events-none bg-transparent data-[state=open]:bg-transparent h-10 py-2 px-4 group w-max focus:ring-0 focus:ring-[#DCE1EA] focus:outline-0 group"
+                  className="inline-flex items-center justify-center rounded-full text-xl font-medium transition-colors hover:bg-[#383434] disabled:opacity-50 outline-0 disabled:pointer-events-none bg-transparent data-[state=open]:bg-transparent h-10 py-2 px-4 group w-max focus:ring-0 focus:ring-[#DCE1EA] focus:outline-0 group"
                   data-radix-collection-item=""
                   >
                   Proyectos
@@ -28,9 +28,9 @@ export default function Home() {
               <li>
               <a
                   id="radix-:r2:-trigger-radix-:r3:"
-                  href="/contacto" // Reemplaza con la URL de la página de proyectos
+                  href="/pages/contacto" // Reemplaza con la URL de la página de proyectos
                   data-state="closed"
-                  className="inline-flex items-center justify-center rounded-full text-sm font-medium transition-colors hover:bg-[#383434] disabled:opacity-50 outline-0 disabled:pointer-events-none bg-transparent data-[state=open]:bg-transparent h-10 py-2 px-4 group w-max focus:ring-0 focus:ring-[#DCE1EA] focus:outline-0 group"
+                  className="inline-flex items-center justify-center rounded-full text-xl font-medium transition-colors hover:bg-[#383434] disabled:opacity-50 outline-0 disabled:pointer-events-none bg-transparent data-[state=open]:bg-transparent h-10 py-2 px-4 group w-max focus:ring-0 focus:ring-[#DCE1EA] focus:outline-0 group"
                   data-radix-collection-item=""
                   >
                   Contacto
@@ -60,8 +60,11 @@ export default function Home() {
       </div>
       
         <div className="my-16 text-center animate-fade-in">
-          <h2 className="text-sm text-zinc-500 ">
-            Hola!, Bienvenid@ a nuestro <a className='text-sm font-medium' href="https://github.com/niFrizP/proyecto-git"> repositorio</a>
+          <h2>
+            Hola!, Bienvenid@ a nuestro portafolio,
+          </h2>
+          <h2>
+          Te invitamos a ver nuestros proyectos en nuestro<a href="https://github.com/niFrizP/proyecto-git"> repositorio</a>
           </h2>
         </div>
 

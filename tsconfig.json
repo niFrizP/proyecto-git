@@ -23,6 +23,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/pages/contacto/contacto.js", "src/app/contacto.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/pages/contacto/contacto.js", "src/app/contacto.js", "src/app/components/Cajon.js"],
   "exclude": ["node_modules"]
 }
