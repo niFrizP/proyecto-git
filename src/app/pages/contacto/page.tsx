@@ -1,9 +1,8 @@
 import Image from 'next/image'
-import Link from "next/link";
 import React from 'react'
-import Particles from '../components/particles'
+import Particles from '../../components/particles'
 
-export default function Home() {
+export default function Page() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
@@ -12,20 +11,25 @@ export default function Home() {
           </nav>
         </div>
       </div>
+        <div className="my-16 text-center animate-fade-in">
+
+          <h2>Esta pagina fue realizada por estudiantes de ingenieria en informatica de DUOC UC 
+            para la asignatura de GitHub en Equipo.
+          </h2>
+        </div>
       
         <Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#DCE1EA] dark:invert "
           src="/linkedin.svg"
           alt="Next.js Logo"
-          width={300}
-          height={148}
+          width={120}
+          height={70}
           priority
         />      
-        <div className="my-16 text-center animate-fade-in">
           <h2 className="text-sm text-zinc-500 ">
             Links:
           </h2>
-        </div>
+
         <div className="text-center animate-fade-in">
         <a
           id="radix-:r2:-trigger-radix-:r3:"
